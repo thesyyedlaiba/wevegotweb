@@ -31,7 +31,7 @@ export function Portfolio() {
 >
   {/* Editorial Background */}
 
-<div className="absolute inset-0 bg-[#EEF5F7]" />
+<div className="absolute inset-0 bg-[#EEF6EF]" />
       <div className="relative z-10 mx-auto max-w-7xl">
 
         {/* Heading */}
@@ -190,11 +190,7 @@ export function Portfolio() {
           viewport={{ once: true }}
           className="mt-32 text-center"
         >
-          <p className="mx-auto max-w-3xl text-lg leading-8 text-[#6B5A4C]">
-            Every project is designed with the same philosophy:
-            thoughtful design, seamless user experience and websites
-            that help businesses leave a memorable first impression.
-          </p>
+        
         </motion.div>
 
       </div>

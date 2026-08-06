@@ -58,17 +58,13 @@ export default function Services() {
           </p>
 
           <h2
-            id="services-heading"
-            className="font-['Bodoni_Moda'] leading-[0.9] text-[#4D3A2D]"
-          >
-           <span className="block text-[2rem] sm:text-6xl lg:text-8xl">
+  id="services-heading"
+  className="font-['Bodoni_Moda'] text-6xl leading-[0.92] text-[#4D3A2D] lg:text-8xl"
+>
   What
-</span>
-
-<span className="block text-[2rem] sm:text-6xl lg:text-8xl">
+  <br />
   We Do
-</span>
-          </h2>
+</h2>
         </motion.div>
 
         {/* Services */}
@@ -161,11 +157,7 @@ export default function Services() {
     "
   />
 
-  <p className="relative z-10 text-base leading-7 sm:text-lg sm:leading-8 text-[#6B5A4C]">
-    Whether you're launching your first business or refreshing an existing one,
-    we build websites that feel intentional, perform beautifully, and leave a
-    lasting impression.
-  </p>
+ 
 </div>
         </motion.div>
       </div>
