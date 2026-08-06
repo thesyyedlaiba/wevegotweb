@@ -3,10 +3,10 @@ import { ArrowRight } from "lucide-react";
 
 export function Hero() {
   return (
-    <section
-      id="home"
-      className="relative flex min-h-screen items-center justify-center overflow-hidden bg-[#FDFBF7] px-6 pt-28 sm:pt-32 pb-20"
-    >
+   <section
+  id="home"
+ className="relative flex min-h-[70h] justify-center overflow-hidden bg-[#FDFBF7] px-6 pt-24 pb-16 sm:min-h-screen sm:items-center sm:pt-32 sm:pb-20"
+ >
       <motion.div
         initial={{ opacity: 0, y: 18, scale: 0.985 }}
         animate={{ opacity: 1, y: 0, scale: 1 }}
@@ -14,14 +14,15 @@ export function Hero() {
           duration: 0.8,
           ease: [0.22, 1, 0.36, 1],
         }}
-        className="mx-auto flex w-full max-w-6xl flex-col items-center text-center"
-      >
+      
+  className="mx-auto mt-8 sm:mt-0 flex w-full max-w-6xl flex-col items-center text-center"
+>
         {/* Label */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.15, duration: 0.6 }}
-          className="mb-16 sm:mb-20"
+          className="mb-10 sm:mb-20"
         >
           <div className="relative inline-block">
             <motion.div
@@ -87,12 +88,14 @@ export function Hero() {
             />
           </a>
 
-          <a
-            href="#contact"
-            className="flex w-full max-w-[320px] items-center justify-center rounded-full bg-[#FFE082] px-9 py-4 font-['League_Spartan'] text-[#80917D] transition-all duration-500 hover:-translate-y-1 hover:bg-[#F7D968] sm:w-auto"
-          >
-            Let's Talk
-          </a>
+         <a
+  href="https://forms.gle/PV3yzPsqri3fro1S8"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex w-full max-w-[320px] items-center justify-center rounded-full bg-[#FFE082] px-9 py-4 font-['League_Spartan'] text-[#80917D] transition-all duration-500 hover:-translate-y-1 hover:bg-[#F7D968] sm:w-auto"
+>
+  Start Your Project
+</a>
         </motion.div>
       </motion.div>
 

@@ -1,9 +1,7 @@
 import Navbar from "./components/sections/Navbar";
 import { Hero } from "./components/sections/Hero";
-import Benefits from "./components/sections/Benefits";
 import Services from "./components/sections/Services";
 import { Portfolio } from "./components/sections/Portfolio";
-import { Process } from "./components/sections/Process";
 import { Team } from "./components/sections/Team";
 import { Contact } from "./components/sections/Contact";
 import { Footer } from "./components/sections/Footer";
@@ -24,10 +22,8 @@ function App() {
         />
       </div>
 
-      <Benefits />
       <Services />
       <Portfolio />
-      <Process />
       <Team />
       <Contact />
       <Footer />

@@ -4,10 +4,8 @@ import { Menu, X } from "lucide-react";
 
 const navItems = [
   { name: "Home", href: "#home" },
-  { name: "Benefits", href: "#benefits" },
   { name: "Services", href: "#services" },
   { name: "Projects", href: "#work" },
-  { name: "Process", href: "#process" },
   { name: "Team", href: "#team" },
   { name: "Contact", href: "#contact" },
 ];
@@ -47,15 +45,19 @@ export default function Navbar() {
           >
           </motion.a>
 
-          {/* Desktop Navigation */}
+         {/* Navigation */}
 
-          <div className="hidden items-center gap-7 lg:flex lg:gap-9">
-            {navItems.map((item) => (
+<div className="flex items-center gap-5 text-sm lg:gap-9">
+            {navItems
+  .filter((item) =>
+    ["Services", "Projects", "Contact"].includes(item.name)
+  )
+  .map((item) => (
               <motion.a
                 key={item.name}
                 href={item.href}
                 whileHover={{ y: -2 }}
-                className="group relative text-[15px] font-medium text-stone-700 transition-colors duration-300 hover:text-[#4D3A2D]"
+                className="group relative text-[13px] font-medium text-stone-700 transition-colors duration-300 hover:text-[#4D3A2D]"
               >
                 {item.name}
 
@@ -64,31 +66,10 @@ export default function Navbar() {
             ))}
           </div>
 
-          {/* CTA */}
+         
 
-          <div className="hidden lg:block">
-  <motion.a
-    whileHover={{ scale: 1.05 }}
-    whileTap={{ scale: 0.97 }}
-    href="#contact"
-    className="rounded-full bg-[#4D3A2D] px-6 py-3 font-medium text-white transition hover:bg-[#3E2E24]"
-  >
-    Start Your Project
-  </motion.a>
-</div>
+          
 
-          {/* Mobile Toggle */}
-
-          <button
-            onClick={() => setMenuOpen(!menuOpen)}
-            className="lg:hidden"
-          >
-            {menuOpen ? (
-              <X className="h-7 w-7 text-[#4D3A2D]" />
-            ) : (
-              <Menu className="h-7 w-7 text-[#4D3A2D]" />
-            )}
-          </button>
 
         </div>
       </motion.nav>

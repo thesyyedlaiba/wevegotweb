@@ -66,11 +66,9 @@ export function Team() {
           </p>
 
           <h2 className="font-['Bodoni_Moda'] text-6xl leading-[0.92] text-[#4D3A2D] lg:text-8xl">
-            The People
+            Meet
             <br />
-            Behind
-            <br />
-            We've Got Web
+            The Team
           </h2>
         </motion.div>
 

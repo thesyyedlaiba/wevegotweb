@@ -61,13 +61,13 @@ export default function Services() {
             id="services-heading"
             className="font-['Bodoni_Moda'] leading-[0.9] text-[#4D3A2D]"
           >
-            <span className="block text-5xl sm:text-6xl lg:text-8xl">
-             How We Help
-            </span>
+           <span className="block text-[2rem] sm:text-6xl lg:text-8xl">
+  What
+</span>
 
-            <span className="block text-5xl sm:text-6xl lg:text-8xl">
-              Businesses Grow.
-            </span>
+<span className="block text-[2rem] sm:text-6xl lg:text-8xl">
+  We Do
+</span>
           </h2>
         </motion.div>
 
@@ -88,14 +88,14 @@ export default function Services() {
               whileHover={{ y: -4 }}
               className="group relative py-10 transition-all duration-500 sm:py-12"
             >
-              <div className="grid items-start gap-10 lg:grid-cols-[110px_1fr]">
+              <div className="grid items-start gap-6 sm:gap-10 lg:grid-cols-[110px_1fr]">
                 {/* Number */}
 
                 <motion.div
                   whileHover={{ scale: 1.08 }}
                   transition={{ duration: 0.3 }}
                 >
-                  <span className="font-['Bodoni_Moda'] text-5xl text-[#C8B59B] transition-colors duration-500 group-hover:text-[#4D3A2D] sm:text-6xl">
+                  <span className="font-['Bodoni_Moda'] text-[28px] sm:text-5xl text-[#C8B59B] transition-colors duration-500 group-hover:text-[#4D3A2D] sm:text-6xl">
                     {service.number}
                   </span>
                 </motion.div>
@@ -108,7 +108,7 @@ export default function Services() {
   transition={{ duration: 0.3 }}
   className="
     font-['Cormorant_Garamond']
-    text-4xl
+    text-3xl sm:text-5xl
     leading-tight
     text-[#4D3A2D]
     sm:text-5xl
@@ -117,7 +117,7 @@ export default function Services() {
                     {service.title}
                   </motion.h3>
 
-                  <p className="mt-4 max-w-3xl text-base leading-8 text-[#6B5A4C] sm:text-lg">
+                  <p className="mt-4 max-w-3xl text-sm leading-6 sm:text-lg text-[#6B5A4C]">
                     {service.description}
                   </p>
                 </div>
@@ -161,7 +161,7 @@ export default function Services() {
     "
   />
 
-  <p className="relative z-10 text-lg leading-8 text-[#6B5A4C]">
+  <p className="relative z-10 text-base leading-7 sm:text-lg sm:leading-8 text-[#6B5A4C]">
     Whether you're launching your first business or refreshing an existing one,
     we build websites that feel intentional, perform beautifully, and leave a
     lasting impression.

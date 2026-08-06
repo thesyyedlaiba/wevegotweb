@@ -5,7 +5,7 @@ export function Contact() {
   return (
     <section
       id="contact"
-      className="bg-[#FDFBF7] px-6 py-32"
+      className="bg-[#FDFBF7] px-6 py-20 sm:py-28 lg:py-32"
     >
       <div className="mx-auto max-w-6xl">
 
@@ -22,7 +22,7 @@ export function Contact() {
             CONTACT
           </p>
 
-          <h2 className="font-['Bodoni_Moda'] text-5xl leading-[0.92] text-[#4D3A2D] sm:text-6xl lg:text-8xl">
+          <h2 className="font-['Bodoni_Moda'] text-4xl leading-[0.92] text-[#4D3A2D] sm:text-6xl lg:text-8xl">
             Let's Build
             <br />
             Something
@@ -30,7 +30,7 @@ export function Contact() {
             Together.
           </h2>
 
-          <p className="mx-auto mt-10 max-w-2xl text-lg leading-8 text-[#6B5A4C]">
+          <p className="mx-auto mt-10 max-w-2xl text-base leading-7 sm:text-lg sm:leading-8 text-[#6B5A4C]">
             Whether you're launching your first business,
             refreshing your brand, or ready for a website
             that truly represents your work, we'd love to
@@ -40,8 +40,8 @@ export function Contact() {
 
         {/* Contact Grid */}
 
-        <div className="mt-28 grid gap-20 lg:grid-cols-2">
-
+        <div className="mt-20 grid gap-14 sm:gap-20 lg:grid-cols-2"
+>
           {/* Left */}
 
           <motion.div
@@ -67,7 +67,7 @@ export function Contact() {
 
                   <a
                     href="mailto:thesyyedlaiba@gmail.com"
-                    className="text-xl text-[#4D3A2D] transition-colors duration-300 hover:text-[#80917D]"
+                    className="text-lg sm:text-xl text-[#4D3A2D] transition-colors duration-300 hover:text-[#80917D]"
                   >
                     thesyyedlaiba@gmail.com
                   </a>
@@ -91,14 +91,14 @@ export function Contact() {
 
                   <a
                     href="tel:+917080301299"
-                    className="block text-xl text-[#4D3A2D] transition-colors duration-300 hover:text-[#80917D]"
+                    className="block text-lg sm:text-xl text-[#4D3A2D] transition-colors duration-300 hover:text-[#80917D]"
                   >
                     +91 70803 01299
                   </a>
 
                   <a
                     href="tel:+917860211113"
-                    className="mt-2 block text-xl text-[#4D3A2D] transition-colors duration-300 hover:text-[#80917D]"
+                    className="block text-lg sm:text-xl text-[#4D3A2D] transition-colors duration-300 hover:text-[#80917D]"
                   >
                     +91 78602 11113
                   </a>
@@ -121,7 +121,7 @@ export function Contact() {
                     Location
                   </p>
 
-                  <p className="text-xl text-[#4D3A2D]">
+                  <p className="text-lg sm:text-xl text-[#4D3A2D]">
                     Based in India, working worldwide.
                   </p>
 
@@ -139,12 +139,12 @@ export function Contact() {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="rounded-[32px] border border-[#E8DED2] bg-[#FFFCF8] p-12 shadow-[0_20px_60px_rgba(77,58,45,0.05)]"
+            className="rounded-[32px] border border-[#E8DED2] bg-[#FFFCF8] p-8 sm:p-12 shadow-[0_20px_60px_rgba(77,58,45,0.05)]"
           >
 
             <div className="flex h-full flex-col items-center justify-center text-center">
 
-              <p className="max-w-sm text-lg leading-8 text-[#6B5A4C]">
+              <p className="max-w-sm text-base leading-7 sm:text-lg sm:leading-8 text-[#6B5A4C]">
                 Every great website starts with a conversation.
                 Tell us about your project, your goals, and your vision.
               </p>
@@ -153,7 +153,7 @@ export function Contact() {
                 href="https://forms.gle/Wj4t35pqoFp3jQFUA"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group mt-12 inline-flex items-center gap-3 rounded-full bg-[#4D3A2D] px-10 py-5 text-lg font-medium text-white transition-all duration-300 hover:scale-105 hover:bg-[#5B4536]"
+                className="group mt-12 inline-flex items-center gap-3 rounded-full bg-[#4D3A2D] px-8 py-4 text-base sm:px-10 sm:py-5 sm:text-lg font-medium text-white transition-all duration-300 hover:scale-105 hover:bg-[#5B4536]"
               >
                 Start Your Project
 
@@ -176,9 +176,9 @@ export function Contact() {
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="mt-28 text-center"
+          className="mt-20 sm:mt-28 text-center"
         >
-          <p className="mx-auto max-w-3xl text-lg leading-8 text-[#6B5A4C]">
+          <p className="mx-auto max-w-3xl text-base leading-7 sm:text-lg sm:leading-8 text-[#6B5A4C]">
             Every great website starts with a conversation.
             We'd love to hear what you're building.
           </p>

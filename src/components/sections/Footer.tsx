@@ -2,10 +2,8 @@ import { motion } from "framer-motion";
 
 const navigation = [
   { label: "Home", href: "#home" },
-  { label: "Benefits", href: "#benefits" },
   { label: "Services", href: "#services" },
   { label: "Selected Work", href: "#work" },
-  { label: "Our Process", href: "#process" },
   { label: "Team", href: "#team" },
   { label: "Contact", href: "#contact" },
 ];
