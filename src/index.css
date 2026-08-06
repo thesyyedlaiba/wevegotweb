@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;500;600;700;800&family=League+Spartan:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --cream: #FCF8F2;
+  --butter: #FFE082;
+  --beige: #E6D5B8;
+  --taupe: #C5A880;
+  --brown: #5C4033;
+  --sage: #A8B5A2;
+
+  --font-heading: "Bodoni Moda", serif;
+  --font-display: "League Spartan", sans-serif;
+  --font-body: "Inter", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: var(--cream);
+  color: var(--brown);
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bodoni Moda", serif;
+}
+
+::selection {
+  background: var(--butter);
+}
+@keyframes dragonflyFloat {
+  0% {
+    transform: translateY(0px);
+  }
+
+  25% {
+    transform: translateY(-8px);
+  }
+
+  50% {
+    transform: translateY(2px);
+  }
+
+  75% {
+    transform: translateY(-6px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.dragonfly-float {
+  animation: dragonflyFloat 2.2s ease-in-out infinite;
+  will-change: transform;
+}
