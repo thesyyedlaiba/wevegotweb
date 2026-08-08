@@ -5,6 +5,7 @@ import { Portfolio } from "./components/sections/Portfolio";
 import { Team } from "./components/sections/Team";
 import { Contact } from "./components/sections/Contact";
 import { Footer } from "./components/sections/Footer";
+import { FloatingWhatsapp } from "./components/sections/FloatingWhatsapp";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <Team />
       <Contact />
       <Footer />
+      <FloatingWhatsapp />
     </>
   );
 }

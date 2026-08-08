@@ -156,6 +156,24 @@ export function Contact() {
                   className="transition-transform duration-300 group-hover:translate-x-1"
                 />
               </a>
+              <p className="mt-8 text-sm text-[#9C8B7A]">
+  Have a quick question?
+</p>
+
+<a
+  href="https://wa.me/917860211113?text=Hi%20We%27ve%20Got%20Web!%20I%20have%20a%20quick%20question%20about%20your%20web%20design%20services."
+  target="_blank"
+  rel="noopener noreferrer"
+  className="group mt-3 inline-flex items-center gap-2 text-[#4D3A2D] transition-all duration-300 hover:text-[#80917D]"
+>
+  <span className="border-b border-[#4D3A2D] pb-1 text-base font-medium">
+    Chat with us on WhatsApp
+  </span>
+
+  <span className="text-lg transition-transform duration-300 group-hover:translate-x-1">
+    ↗
+  </span>
+</a>
 
             </div>
 
