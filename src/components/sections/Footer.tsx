@@ -104,13 +104,6 @@ export function Footer() {
               <div className="space-y-2">
 
   <a
-    href="tel:+917080301299"
-    className="block text-lg transition-colors duration-300 hover:text-[#E7D6BF]"
-  >
-    +91 70803 01299
-  </a>
-
-  <a
     href="tel:+917860211113"
     className="block text-lg transition-colors duration-300 hover:text-[#E7D6BF]"
   >

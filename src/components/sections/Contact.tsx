@@ -89,12 +89,6 @@ export function Contact() {
                     Phone
                   </p>
 
-                  <a
-                    href="tel:+917080301299"
-                    className="block text-lg sm:text-xl text-[#4D3A2D] transition-colors duration-300 hover:text-[#80917D]"
-                  >
-                    +91 70803 01299
-                  </a>
 
                   <a
                     href="tel:+917860211113"
