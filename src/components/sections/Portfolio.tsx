@@ -3,24 +3,34 @@ import { ArrowUpRight } from "lucide-react";
 
 const projects = [
   {
-   
-  title: "Kuumo Ramen",
-  category: "Restaurant Website",
-  description:
-    "A warm, modern website inspired by Japanese minimalism, designed to showcase the atmosphere and menu beautifully.",
-  desktopImage: "/kuumo-web.png",
-  mobileImage: "/ramenphone.jpeg",
-  link: "https://kuumo-ramen-sigma.vercel.app/",
-},
+    title: "Kuumo Ramen",
+    category: "Restaurant Website",
+    description:
+      "A warm, modern website inspired by Japanese minimalism, designed to showcase the atmosphere and menu beautifully.",
+    desktopImage: "/kuumo-web.png",
+    mobileImage: "/ramenphone.jpeg",
+    link: "https://kuumo-ramen-sigma.vercel.app/",
+  },
+
   {
-  title: "Café Lamha",
-  category: "Café Website",
-  description:
-    "An editorial-inspired experience crafted to reflect warmth, comfort and thoughtful design.",
-  desktopImage: "/cafe-lamhaa.png",
-  mobileImage: "/cafephone.jpeg",
-  link: "https://cafelamha-kappa.vercel.app/",
-},
+    title: "Beaumont Bakery",
+    category: "Bakery Website",
+    description:
+      "A warm, elegant website created for a modern bakery, designed to showcase its products, gifting options and online ordering experience.",
+    desktopImage: "/bakerydesk.png",
+    mobileImage: "/bakeryweb.jpeg",
+    link: "https://beaumontbakery.vercel.app/",
+  },
+
+  {
+    title: "Café Lamha",
+    category: "Café Website",
+    description:
+      "An editorial-inspired experience crafted to reflect warmth, comfort and thoughtful design.",
+    desktopImage: "/cafe-lamhaa.png",
+    mobileImage: "/cafephone.jpeg",
+    link: "https://cafelamha-kappa.vercel.app/",
+  },
 ];
 
 export function Portfolio() {
